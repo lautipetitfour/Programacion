@@ -1,0 +1,10 @@
+Algoritmo edad_persona
+	definir edad, anio_act , nac Como Entero
+	Escribir "Ingrese el año de nacimiento de la persona"
+	leer nac
+	Escribir  "Ingrese el año actual"
+	leer anio_act
+	edad = anio_act-nac
+	Escribir  "La edad de la persona es : " edad " años"
+	
+FinAlgoritmo

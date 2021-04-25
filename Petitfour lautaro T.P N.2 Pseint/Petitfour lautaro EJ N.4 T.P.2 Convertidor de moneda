@@ -1,0 +1,37 @@
+Algoritmo convertidor_moneda
+	definir dinero, dolar,yuan,peso_chileno,libra_esterlina,sol_peruano Como Real
+	definir convertir Como Entero
+	escribir "Ingrese la cantidad de dinero (peso argentino) que desea convertir :"
+	leer dinero
+	escribir "Ingrese a que moneda desea convertir"
+	escribir "1 : Dolar"
+	escribir "2 : Peso chileno"
+	escribir "3 : Libras esterlinas"
+	escribir "4 : Sol Peruano"
+	escribir "5 : Yuan"
+	leer convertir
+	dolar = dinero * 0.011
+	yuan = dinero * 0.072
+	peso_chileno = dinero * 7.81
+	libra_esterlina = dinero * 0.0079
+	sol_peruano = dinero * 0.041
+	
+	Segun convertir Hacer
+		1: 
+			escribir "Su dinero en Dolar vale : $ " dolar
+		2:
+			escribir "Su dinero en Peso Chileno vale : $ " peso_chileno
+		3:
+			escribir "Su dinero en Libras Esterlinas vale : $ " libra_esterlina
+		4:
+			escribir "Su dinero en Sol Peruano vale : $ " sol_peruano
+		5:
+			escribir "Su dinero en Yuan vale : $ " yuan
+		De Otro Modo:
+			escribir "La opcion ingresada es incorrecta"
+	Fin Segun
+	
+
+	
+	
+FinAlgoritmo

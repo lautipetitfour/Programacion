@@ -1,0 +1,35 @@
+Algoritmo cant_dias_mes
+	definir mes Como Entero
+	escribir "Ingrese el mes que desea saber la cantidad de dias"
+	escribir "Entre 1 y 12"
+	leer mes
+	Segun mes Hacer
+		1:
+			escribir "el mes de enero tiene 31 dias" 
+		2:
+			escribir "el mes de febrero tiene 28/29 dias  " 
+		3:
+			escribir "el mes de marzo tiene 31 dias " 
+		4:
+			escribir "el mes de abril tiene 30 dias" 
+		5:
+			escribir "el mes de mayo tiene 30 dias" 
+		6:
+			escribir "el mes de junio tiene 30 dias" 
+		7:
+			escribir "el mes de julio tiene 31 dias" 
+		8:
+			escribir "el mes de agosto tiene 31 dias " 
+		9:
+			escribir "el mes de septiembre tiene 30 dias" 
+		10:
+			escribir "el mes de octubre tiene 31 dias" 
+		11:
+			escribir "el mes de noviembre tiene 30 dias" 
+		12: 
+			escribir "el mes de diciembre tiene 31 dias" 
+		De Otro Modo:
+			escribir "el mes ingresado es incorrecto (los meses van del 1 al 12"
+	Fin Segun
+	
+FinAlgoritmo

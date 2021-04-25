@@ -1,0 +1,23 @@
+Algoritmo tipos_bombas_estructura_si
+	Definir bomba Como Entero
+	escribir "Ingrese el tipo de bomba para la maquina"
+	leer bomba
+	Si (bomba == 0) Entonces
+		escribir "No hay establecido un valor definido para el tipo de bomba"
+	SiNo si (bomba == 1) entonces
+			escribir "La bomba es una bomba de agua"
+		sino si (bomba == 2) entonces
+				escribir "La bomba es una bomba de gasolina "
+			sino si (bomba == 3) entonces
+					escribir "La bomba es una bomba hormigon "
+				sino si (bomba == 4) entonces
+						escribir "La bomba es una bomba de pasta alimenticia"
+					sino  
+						 escribir "No existe un valor válido para bomba"
+							
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+FinAlgoritmo

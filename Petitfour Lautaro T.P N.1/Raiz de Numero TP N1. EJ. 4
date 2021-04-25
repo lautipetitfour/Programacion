@@ -1,0 +1,10 @@
+Algoritmo Op_raiz
+	Definir radical, radicando, subradical Como Entero
+	Escribir "ingrese el numero al cual se le aplicara la raiz"
+	leer radicando
+	Escribir "Ingrese el radical (exponente de raiz) q no sea mayor a 3 "
+	leer radical
+	subradical = n2^(1/n2)
+	Escribir "la raiz de : " n1 " es " subradical
+	
+FinAlgoritmo

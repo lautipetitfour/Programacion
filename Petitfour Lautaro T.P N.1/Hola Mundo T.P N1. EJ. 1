@@ -1,0 +1,7 @@
+Algoritmo hola_mundo
+	Definir tec Como Caracter
+	escribir "¡Ingrese una tecla para ver su saludo!"
+	leer tec
+	escribir "¡Hola MUNDOOO!" 
+	
+FinAlgoritmo

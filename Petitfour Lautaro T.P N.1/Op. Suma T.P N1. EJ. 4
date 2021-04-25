@@ -1,0 +1,10 @@
+Algoritmo op_suma
+	Definir n1 , n2, resultado Como real
+	Escribir "Ingrese el primer numero q desea calcular"
+	leer n1
+	Escribir "Ingrese el segundo numero q desea calcular"
+	leer n2
+	resultado=n1+n2
+	escribir "La suma de los numeros es : " resultado
+	
+FinAlgoritmo
